@@ -29,9 +29,9 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <meta 
-            name="google-site-verification" 
-            content="rUNq8lzwm3z15gaVNUa43iEQ-gKP0WJhkb_qko81oTc" 
+          <meta
+            name="google-site-verification"
+            content="rUNq8lzwm3z15gaVNUa43iEQ-gKP0WJhkb_qko81oTc"
           />
 
           {/* Schema.org tags */}
@@ -40,12 +40,12 @@ module.exports = class HTML extends React.Component {
                 {
                   "@context": "http://schema.org",
                   "@type": "Organization",
-                  "name": "GDPR Checklist",
-                  "url": "https://www.gdprchecklist.io",
+                  "name": "LGPD Checklist",
+                  "url": "https://magrathealabs.github.io/lgpd-checklist",
                   "sameAs": [
-                      "https://twitter.com/gdpr_checklist"
+                      "https://twitter.com/lgpd_checklist"
                   ]
-                } 
+                }
             `}} />
           {this.props.headComponents}
           {css}
@@ -58,8 +58,8 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-        
-          <script dangerouslySetInnerHTML={{ 
+
+          <script dangerouslySetInnerHTML={{
             __html: `
             var _iub = _iub || [];
             _iub.csConfiguration = {

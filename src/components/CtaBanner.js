@@ -83,7 +83,7 @@ const ctaBannerContentWrapper = css`
     width: ${width};
     margin: auto;
     line-height: 1.6;
-    
+
     p {
         display: inline-block;
         padding-left: 100px;
@@ -95,12 +95,12 @@ const ctaBannerContentWrapper = css`
             font-weight: 700;
             margin-right: 5px;
         }
-        
+
         a {
             color: #fff;
         }
     }
-    
+
     .buttonSignUpProductHunt {
         display: inline-block;
         margin-left: 20px;
@@ -112,17 +112,17 @@ const ctaBannerContentWrapper = css`
         font-size: 14px;
         font-weight: 700;
     }
-    
-    @media ${largeDown} {    
+
+    @media ${largeDown} {
         text-align: center;
-            
+
         p {
             display: block;
             padding-left: 10px;
             padding-right: 60px;
             text-align: center;
         }
-        
+
         .buttonSignUpProductHunt {
             margin-left: 0;
             margin-bottom: 20px;
@@ -137,7 +137,7 @@ const productHuntLogoContainer = css`
     img {
         width: 78px;
     }
-    
+
     @media ${largeDown} {
         display: none;
     }
@@ -152,11 +152,11 @@ const buttonCloseContainer = css`
     transform: translateY(-50%);
     opacity: .8;
     cursor: pointer;
-    
+
     :hover {
         opacity: 1;
     }
-    
+
     @media ${largeDown} {
         top: 20px;
         right: 20px;
@@ -166,11 +166,11 @@ const buttonCloseContainer = css`
 
 const mastHeadPusher = css`
     padding-top: 40px;
-    
+
     @media ${largeDown} {
         padding-top: 120px;
     }
-    
+
     @media ${smallOnly} {
         padding-top: 140px;
     }

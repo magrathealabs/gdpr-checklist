@@ -3,6 +3,7 @@ module.exports = {
     title: 'The GDPR Checklist',
     siteUrl: 'https://gdprchecklist.io'
   },
+  pathPrefix: "/lgpd-checklist",
   plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-emotion`,
