@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://gdprchecklist.io/sitemap.xml
+Host: https://gdprchecklist.io
