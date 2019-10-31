@@ -57,7 +57,7 @@ const Footer = props => (
           name='Lauro Gripa Neto'
           img={props.lauro}
           bio={[
-            'Engenheiro de Software ',
+            'Engenheiro de Software na',
             <a key='magrathealabs' href='https://www.magrathealabs.com' target='_blank'>Magrathea</a>,
           ]}
           linkedin='https://www.linkedin.com/in/laurogripa'

@@ -15,7 +15,7 @@ const Sidebar = props => (
           { steps.map(s => <li key={s.id}><a href={`#${s.id}`}>{s.title}</a></li>)}
         </Scrollspy>
       </ul>
-      <h4 style={{ marginTop: '20px' }}>Ferramentas de Conformidade</h4>
+      <h4 style={{ marginTop: '20px' }}>Compliance tools</h4>
       <ul>
         <li><a href='https://www.gdprform.io'>GDPR Form</a></li>
         <li><a href='https://gdprtracker.io/'>GDPR Tracker</a></li>
