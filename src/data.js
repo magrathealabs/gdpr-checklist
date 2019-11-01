@@ -178,11 +178,11 @@ export const steps = [
   },
   {
     id: 'new-rights',
-    title:'New rights',
+    title:'Novos direitos',
     items: [,
       {
         id: 1,
-        title: 'Your customers can easily request access to their personal information',
+        title: 'Seus clientes podem requisitar acesso aos seus dados pessoais de forma simples',
         role: ['processor', 'controller'],
         description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
         links: [
