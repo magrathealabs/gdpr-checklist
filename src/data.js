@@ -55,10 +55,10 @@ export const steps = [
   },
   {
     id: 'accountability-management',
-    title:'Accountability & management',
+    title:'Responsabilidade & gerenciamento',
     items: [{
         id: 1,
-        title: 'Your company has appointed a Data Protection Officer (DPO)',
+        title: 'Sua empresa elegeu um Executivo de Proteção de Dados (DPO)',
         role: ['processor', 'controller'],
         description: 'A DPO is only required in three scenarios: (1) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity; (2) the core activities of the business consist of processing operations which, by virtue of their nature, scope, and/or purposes, require regular and systematic monitoring of data subjects on a large scale, or (3) the core activities of the business consist of processing on a large scale special categories of data (sensitive data) pursuant to Article 9 and personal data relating to criminal convictions or offenses pursuant to Article 10. If a DPO is required, the DPO should have knowledge of GDPR guidelines as well as knowledge about the internal processes that involve personal information.',
         links: [
