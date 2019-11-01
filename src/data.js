@@ -1,11 +1,11 @@
 export const steps = [
   {
     id: 'your-data',
-    title:'Your data',
+    title:'Seus dados',
     items: [,
       {
         id: 1,
-        title: 'Your company has a list of all types of personal information it holds, the source of that information, who you share it with, what you do with it and how long you will keep it',
+        title: 'Sua empresa possui uma lista de todos os tipos de informaçção pessoal exigida, a origem dessa informação, com quem a ela é compartilhada, o que é feito com isso e por quanto tempo é armazenado',
         role: ['processor', 'controller'],
         description: 'This is a list of the actual types (columns) of information being held (eg Name, social security nr, address,..). For each type, a source should be documented, the parties this information is shared with, the purpose of the information and the duration for which the company will keep this information.',
         links: [
