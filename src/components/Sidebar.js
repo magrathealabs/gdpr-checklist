@@ -7,7 +7,7 @@ import Scrollspy from 'react-scrollspy'
 const Sidebar = props => (
   <div className="fixed">
     <a href="/">
-      <img src={logo} alt="GDPR Checklist" className="logo" />
+      <img src={logo} alt="LGPD Checklist" className="logo" />
     </a>
     <nav>
       <ul>
@@ -20,14 +20,11 @@ const Sidebar = props => (
         <li><a href='https://www.gdprform.io'>GDPR Form</a></li>
         <li><a href='https://gdprtracker.io/'>GDPR Tracker</a></li>
       </ul>
-      <h4 style={{ marginTop: '20px' }}>Created by</h4>
+      <h4 style={{ marginTop: '20px' }}>Adaptado por</h4>
       <ul>
-        <li><a href='https://www.privacyradius.com'>Privacy Radius</a></li>
+        <li><a href='https://www.magrathealabs.com'>Magrathea</a></li>
       </ul>
     </nav>
-    <div className='newsletter-sidebar'>
-      <a href="http://eepurl.com/duyFHH" className="submit-button" style={{ marginTop: '10px' }}>Newsletter</a>
-    </div>
   </div>
 )
 

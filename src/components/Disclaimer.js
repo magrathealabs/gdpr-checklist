@@ -2,11 +2,11 @@ import React from 'react'
 
 const Disclaimer = ({}) => (
   <div className='disclaimer'>
-    <h5>Disclaimer</h5>
+    <h5>Aviso</h5>
     <p>
-      The information above is not the same as legal advice, where an attorney applies the law to your specific circumstances, 
-      so we insist that you consult an attorney if you’d like advice on your interpretation of this information or its accuracy. 
-      In a nutshell, you may not rely on this as legal advice, nor as a recommendation of any particular legal understanding.
+      A informação acima não é equivalente a um conselho legal, onde um advogado aplica a lei para suas circustâncias específicas.
+      Sendo assim, insistimos que consulte um advogado se quiser ter conselhos na interpretação dessa informação ou em sua precisão.
+      Resumindo, você não deve confiar nisso como conselho legal, nem como uma recomendação de qualquer entendimento legal particular.
     </p>
   </div>
 )

@@ -151,29 +151,23 @@ class IndexPage extends React.Component {
           <div className='columns'>
             <Sidebar />
             <div className="col-9">
-              <h1>The GDPR Compliance Checklist</h1>
-              <h2 className="description first">Achieving GDPR Compliance shouldn't feel like a struggle.
-              This is a basic checklist you can use to harden your GDPR compliancy.</h2>
+              <h1>Checklist de conformidade com a LGPD</h1>
+              <h2 className="description first">Entrar em conformidade com a LGPD não precisa ser complicado.
+              Essa é uma checklist básica que você pode utilizar para aumentar sua conformidade com a lei.</h2>
 
-              <div style={{ marginTop: '50px', textAlign: 'center', border: '1px solid #EEE', padding: '10px', marginBottom: '20px' }}>
-                <a href="https://app.gdprform.io/register?coupon=earlybird&utm_source=gdprchecklist.op&utm_medium=banner&utm_campaign=gdpr_checklist_early_bird" style={{ color: '#777', textDecoration: 'none', fontSize: '14px', lineHeight: '28px' }}>
-                  <span style={{ background: '#41b541', borderRadius: '2px', marginTop: '20px', color: 'white', padding: '4px 6px' }}>New</span> Manage your data subjects requests with GDPR Form. Start your free trial today and receive a 20% discount. (From the makers of GDPR Tracker & Checklist)
-                </a>
-              </div>
-
-              <p className="small description">if your organisation is determining the purpose of the storage or processing of personal information, it is considered a <b>controller</b>. If your organisation stores or processes personal data on behalf of another organisation, it is considered a <b>processor</b>. It is possible for your organisation to have both roles. Use the filter below to view only the relevant checklist items for your organisation.</p>
+              <p className="small description">Se a sua organização está determinando o próposito de armazemaneto e processamento de informação pessoal, ela é considerada uma <b>controladora</b>. Se a sua organização armazena ou processa dados pessoais em nome de outra organização, ela é considerada uma <b>processadora</b>. É possível que sua organização tenha os dois papéis. Utilize o filtro abaixo para visualizar somente os itens relevantes a sua organização.</p>
 
               <p className="small description">
-              This list is far from a legal exhaustive document, it merely tries to help you overcome the struggle.
+              Essa lista está longe de ser um documento legal, ela é meramente uma tentativa de facilitar sua vida.
 
-              <br/><br/>Feel free to <a href="https://github.com/privacyradius/gdpr-checklist" target="_blank">contribute directly</a> on GitHub!
+              <br/><br/>Sinta-se livre para <a href="https://github.com/magrathelabs/lgpd-checklist" target="_blank">contribuir diretamente</a> no GitHub!
               </p>
 
               <div className="filter-bar">
-                <h3>Select your organisation's role:</h3>
+                <h3>Selecione o papel da sua organização:</h3>
                 <ul className="selected-three">
-                  <li onClick={this.toggleController} className={this.state.controllerSelected ? 'controller' : ''}><h2>Data Controller: I determine why data is processed</h2></li>
-                  <li onClick={this.toggleProcessor} className={this.state.processorSelected ? 'processor' : ''}><h2>Data Processor: I store or process data for someone else</h2></li>
+                  <li onClick={this.toggleController} className={this.state.controllerSelected ? 'controller' : ''}><h2>Controladora: Eu determino porque os dados são processados</h2></li>
+                  <li onClick={this.toggleProcessor} className={this.state.processorSelected ? 'processor' : ''}><h2>Processadora: Eu armazeno ou processo dados para terceiros</h2></li>
                 </ul>
               </div>
                 { steps.map( (function(s)
@@ -181,7 +175,6 @@ class IndexPage extends React.Component {
                     return <Section key={s.id} list={[s]} controllerSelected={this.state.controllerSelected} processorSelected={this.state.processorSelected} />
                     }).bind(this)
                     ) }
-              <Newsletter />
               <Footer />
               <Disclaimer />
             </div>

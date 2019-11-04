@@ -45,54 +45,23 @@ const Footer = props => (
     </p>
 
     <div className='gradient'>
-      <h5>About GDPR Checklist</h5>
-      <div className='subtitle'>GDPR Checklist is made by a small team from Belgium 🇧🇪 to help businesses navigate the GDPR landscape.
-      The project is inspired by <a href='https://cto-security-checklist.sqreen.io/'>The SaaS CTO Security Checklist</a> created by <a href='https://www.sqreen.io'>Sqreen.io</a></div>
+      <h5>Sobre LGPD Checklist</h5>
+      <div className='subtitle'>LGPD Checklist foi feita por um time de Joinville, Santa Catarina, com propósito de facilitar a compreensão da LGPD.
+      Esse projeto é inspirado em <a href='https://cto-security-checklist.sqreen.io/'>The SaaS CTO Security Checklist</a> criado por <a href='https://www.sqreen.io'>Sqreen.io</a>.
+      Assim como uma adaptação e tradução da <a href='https://gdpr-checklist-checklist.io/'>The GDPR Checklist</a> criada por <a href='https://www.privacyradius.com'>Privacy Radius</a>
+      </div>
 
       <Makers>
         <Maker
-          key='gertjan'
-          name='Gertjan De Wilde'
-          img={props.gertjan}
+          key='lauro'
+          name='Lauro Gripa Neto'
+          img={props.lauro}
           bio={[
-            'Co-founder ',
-            <a key='apideck' href='https://www.apideck.com' target='_blank'>Apideck</a>,
-            <a key='apideck' href='https://www.banq.ai/' target='_blank'>banq</a>,
-            ', ', <a key='beatswitch' href='https://www.beatswitch.com' target='_blank'>Beatswitch</a>,
-            ' & ', <a key='pr' href='https://www.privacyradius.com' target='_blank'>Privacy Radius</a>
+            'Engenheiro de Software na',
+            <a key='magrathealabs' href='https://www.magrathealabs.com' target='_blank'>Magrathea</a>,
           ]}
-          linkedin='https://www.linkedin.com/in/gertjandewilde/'
-          twitter='https://twitter.com/gertjanwilde'
-          producthunt='https://www.producthunt.com/@gertjanwilde'
-        />
-        <Maker
-          key='willem'
-          name='Willem Delbare'
-          img={props.willem}
-          bio={[
-            'Co-founder ',
-            <a key='knowles' href='https://www.knowlex.be' target='_blank'>Knowlex</a>,
-            ', ', <a key='officient' href='https://www.officient.io' target='_blank'>Officient</a>,
-            ', ', <a key='futureproofed' href='http://www.futureproofed.com/' target='_blank'>Futureproofed</a>,
-            ', ', <a key='pr' href='https://www.privacyradius.com' target='_blank'>Privacy Radius</a>,
-            ' & ', <a key='teamleader' href='https://www.teamleader.eu' target='_blank'>Teamleader</a>
-          ]}
-          linkedin='https://www.linkedin.com/in/willemdelbare/'
-          producthunt='https://www.producthunt.com/@WillemDB'
-        />
-        <Maker
-          key='johan'
-          name='Johan De Keulenaer'
-          img={props.johan}
-          bio={[
-            'Co-founder ',
-            <a key='pr' href='https://www.privacyradius.com' target='_blank'>Privacy Radius</a>,
-            ', ', <a key='beatswitch' href='https://www.beatswitch.com' target='_blank'>Beatswitch</a>,
-            ' & ', <a key='wunderman' href='https://www.wunderman.com' target='_blank'>CSD Wunderman</a>
-          ]}
-          linkedin='https://www.linkedin.com/in/johandekeulenaer'
-          twitter='https://twitter.com/ActiveLife '
-          producthunt='https://www.producthunt.com/@johandekeulenaer'
+          linkedin='https://www.linkedin.com/in/laurogripa'
+          twitter='https://twitter.com/laurogripa'
         />
       </Makers>
     </div>
