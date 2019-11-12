@@ -5,12 +5,13 @@ export const steps = [
     items: [,
       {
         id: 1,
-        title: 'Sua empresa possui uma lista de todos os tipos de informaçção pessoal exigida, a origem dessa informação, com quem a ela é compartilhada, o que é feito com isso e por quanto tempo é armazenado',
+        title: 'Sua empresa possui uma lista de todos os tipos de informações pessoal exigidas, a origem desses dados, com quem isso é compartilhado, o que é feito com isso e por quanto tempo é armazenado.',
         role: ['processor', 'controller'],
-        description: 'This is a list of the actual types (columns) of information being held (eg Name, social security nr, address,..). For each type, a source should be documented, the parties this information is shared with, the purpose of the information and the duration for which the company will keep this information.',
+        description: 'É uma lista com os tipos de dados armazenados (ex: Nome, CPF e endereço). Para cada tipo, uma origem deve ser documentada, assim como os terceiros com quem esses dados são compartilhados, seu propósito de armazenamento e a duração na qual a empresa irá mantê-los.',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
-           title: 'GDPR Article 30 – Records of processing activities'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
+            title: 'GDPR Article 30 – Records of processing activities'
           },
           {
             href: "https://gdprplug.in/gdpr-data-map/",
@@ -20,34 +21,37 @@ export const steps = [
       },
       {
         id: 2,
-        title: 'Your company has a list of places where it keeps personal information and the ways data flows between them',
+        title: 'Sua empresa tem uma lista de lugares onde mantém dados pessoas e como os dados circulam entre eles.',
         role: [ 'processor', 'controller'],
-        description: 'This could be a list of databases (eg Mysql), but it could also include offline datastores (paper).',
+        description: 'Pode ser uma lista de bancos de dados (ex: PostgreSQL), mas também pode incluir arquivos físicos (papel).',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
-           title: 'GDPR Article 30 – Records of processing activities'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
+            title: 'GDPR Article 30 – Records of processing activities'
           }
         ]
       },
       {
         id: 3,
-        title: 'Your company has a publicly accessible privacy policy that outlines all processes related to personal data.',
+        title: 'Sua empresa possui uma política de privacidade acessível ao público que descreve todos os processos relacionados aos dados pessoais.',
         role: ['processor', 'controller'],
-        description: 'You should include information about all processes related to the handling of personal information. This document should include (or have links to) the types of personal information the company holds, and where it holds them. ',
+        description: 'Você deve incluir informações sobre todos os processos relacionados ao manuseio de informações pessoais. Este documento deve incluir (ou ter links para) os tipos de informações pessoais que a empresa mantém e onde elas são mantidas.',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
-           title: 'GDPR Article 30 – Records of processing activities'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/records-of-processing-activities/",
+            title: 'GDPR Article 30 – Records of processing activities'
           }
         ]
       },
       {
         id: 4,
-        title: 'Your privacy policy should include a lawful basis to explain why the company needs to process personal information',
+        title: 'Sua política de privacidade deve incluir uma base legal para explicar porque a empresa precisa processar informações pessoais.',
         role: [ 'controller'],
-        description: 'It should contain a reason for data processing, eg the fulfillment of a contract.',
+        description: 'Deve conter uma razão para o processamento de dados (ex: o cumprimento de um contrato).',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/lawfulness-of-processing/",
-           title: 'GDPR Article 6 – Lawfulness of processing'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/lawfulness-of-processing/",
+            title: 'GDPR Article 6 – Lawfulness of processing'
           }
         ]
       }
