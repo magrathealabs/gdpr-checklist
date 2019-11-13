@@ -21,7 +21,7 @@ export const steps = [
       },
       {
         id: 2,
-        title: 'Sua empresa tem uma lista de lugares onde mantém dados pessoas e como os dados circulam entre eles.',
+        title: 'Sua empresa mantém uma documentação de quais sistemas armazenam dados pessoais e como os dados circulam entre eles.',
         role: [ 'processor', 'controller'],
         description: 'Pode ser uma lista de bancos de dados (ex: PostgreSQL), mas também pode incluir arquivos físicos (papel).',
         links: [
