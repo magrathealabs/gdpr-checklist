@@ -1,8 +1,8 @@
 export const steps = [
   {
     id: 'your-data',
-    title:'Seus dados',
-    items: [,
+    title: 'Seus dados',
+    items: [
       {
         id: 1,
         title: 'Sua empresa possui uma lista de todos os tipos de informações pessoal exigidas, a origem desses dados, com quem isso é compartilhado, o que é feito com isso e por quanto tempo é armazenado.',
@@ -22,7 +22,7 @@ export const steps = [
       {
         id: 2,
         title: 'Sua empresa mantém uma documentação de quais sistemas armazenam dados pessoais e como os dados circulam entre eles.',
-        role: [ 'processor', 'controller'],
+        role: ['processor', 'controller'],
         description: 'Pode ser uma lista de bancos de dados (ex: PostgreSQL), mas também pode incluir arquivos físicos (papel).',
         links: [
           {
@@ -46,7 +46,7 @@ export const steps = [
       {
         id: 4,
         title: 'Sua política de privacidade deve incluir uma base legal para explicar porque a empresa precisa processar informações pessoais.',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'Deve conter uma razão para o processamento de dados (ex: o cumprimento de um contrato).',
         links: [
           {
@@ -59,8 +59,9 @@ export const steps = [
   },
   {
     id: 'accountability-management',
-    title:'Prestação de contas & gerenciamento',
-    items: [{
+    title: 'Prestação de contas & gerenciamento',
+    items: [
+      {
         id: 1,
         title: 'Sua empresa elegeu um Data Protection Officer (DPO).',
         role: ['processor', 'controller'],
@@ -157,7 +158,7 @@ export const steps = [
       },{
         id: 8,
         title: 'Existe um contrato com todos os processadores de dados com os quais você compartilha dados.',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'O contrato deve conter instruções explícitas para o armazenamento ou processamento de dados pelo processador. O contrato deve definir o objeto e a duração do processamento, a natureza e a finalidade do processamento, o tipo de dados pessoais e categorias de titulares de dados e as obrigações e direitos do controlador. Por exemplo, isso pode incluir um contrato com seu provedor de hospedagem. Os mesmos requisitos de contrato se aplicam quando um processador contrata um sub-processador para ajudá-lo a realizar atividades de processamento em nome do controlador.',
         links: [
           {
@@ -178,99 +179,112 @@ export const steps = [
   },
   {
     id: 'new-rights',
-    title:'Novos direitos',
-    items: [,
+    title: 'Novos direitos',
+    items: [
       {
         id: 1,
-        title: 'Seus clientes podem requisitar acesso aos seus dados pessoais de forma simples',
+        title: 'Seus clientes podem requisitar acesso aos seus dados pessoais de forma simples.',
         role: ['processor', 'controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/right-of-access-by-the-data-subject/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/right-of-access-by-the-data-subject/",
               title: 'GDPR Article 15 – Right of access by the data subject'
             }
         ]
       },
       {
         id: 2,
-        title: 'Your customers can easily update their own personal information to keep it accurate',
+        title: 'Seus clientes podem atualizar facilmente suas próprias informações pessoais para mantê-las precisas.',
         role: ['processor', 'controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/right-to-rectification/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/right-to-rectification/",
               title: 'GDPR Article 16 – Right to rectification'
             }
         ]
       },
       {
         id: 3,
-        title: 'You automatically delete data that your business no longer has any use for',
+        title: 'Você exclui automaticamente os dados que sua empresa não utiliza mais.',
         role: ['processor', 'controller'],
-        description: 'You should automate deletion of data you no longer need. For example, you should automatically delete data for customers whose contracts have not been renewed.',
+        description: 'Você deve automatizar a exclusão de dados que não precisa mais. Por exemplo, você deve excluir automaticamente os dados de clientes cujos contratos não foram renovados.',
         links: [
-            {href: "https://advisera.com/eugdpracademy/gdpr/principles-relating-to-processing-of-personal-data/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/principles-relating-to-processing-of-personal-data/",
               title: 'GDPR Article 5 – Principles relating to processing of personal data'
             }
         ]
       },
       {
         id: 4,
-        title: 'Your customers can easily request deletion of their personal data',
+        title: 'Seus clientes podem facilmente solicitar a exclusão de seus dados pessoais.',
         role: ['processor', 'controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/right-to-erasure-right-to-be-forgotten/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/right-to-erasure-right-to-be-forgotten/",
               title: 'GDPR Article 17 – Right to erasure (‘right to be forgotten’)'
             }
         ]
       },
       {
         id: 5,
-        title: 'Your customers can easily request that you stop processing their data',
+        title: 'Seus clientes podem facilmente solicitar que você pare de processar os dados deles.',
         role: ['processor', 'controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/right-to-restriction-of-processing/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/right-to-restriction-of-processing/",
               title: 'GDPR Article 18 – Right to restriction of processing'
             }
         ]
       },
       {
         id: 6,
-        title: 'Your customers can easily request that their data be delivered to themselves or a 3rd party',
+        title: 'Seus clientes podem facilmente solicitar que seus dados sejam entregues a eles mesmos ou a terceiros.',
         role: ['processor', 'controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/right-to-data-portability/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/right-to-data-portability/",
               title: 'GDPR Article 20 – Right to data portability'
             }
         ]
       },
       {
         id: 7,
-        title: 'Your customers can easily object to profiling or automated decision making that could impact them',
+        title: 'Seus clientes podem se opor facilmente à criação de perfil ou à tomada de decisão automatizada que poderia impactá-los.',
         role: ['controller'],
-        description: 'This is only applicable if your company does profiling or any other automated decision making. If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Isso somente é aplicável se a sua empresa traçar perfis ou qualquer outra tomada de decisão automatizada. Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/automated-individual-decision-making-including-profiling/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/automated-individual-decision-making-including-profiling/",
               title: 'Article 22 – Automated individual decision-making, including profiling'
             }
         ]
@@ -279,28 +293,32 @@ export const steps = [
   },
   {
     id: 'consent',
-    title:'Consent',
-    items: [{
+    title: 'Consentimento',
+    items: [
+      {
         id: 1,
         title: 'Where processing is based on consent, such consent must be freely given, specific, informed, and revocable',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'If your website collects personal information in some way, you should have an easily visble link to your privacy policy and confirm that the user accepts your terms and conditions. Consent requires an affirmative action, so pre-ticked boxes are not permitted.',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
-           title: 'GDPR Article 7 – Conditions for consent'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
+            title: 'GDPR Article 7 – Conditions for consent'
           }
         ]
       },
       {
         id: 2,
         title: 'Your privacy policy should be written in clear and understandable terms ',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'It should be written in clear and simple terms and not conceal it\'s intent in any way. Failing to do so could void the agreement entirely. When providing services to children, the privacy policy should be easy enough for them to understand.',
         links: [
-          { title: "Watchdog service for terms of service: Terms of Service; Didn't Read",
-           href: 'https://tosdr.org/'
+          {
+            title: "Watchdog service for terms of service: Terms of Service; Didn't Read",
+            href: 'https://tosdr.org/'
           },
-          {href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
            title: 'GDPR Article 7.2 – Conditions for consent'
           }
         ]
@@ -308,13 +326,15 @@ export const steps = [
       {
         id: 3,
         title: 'It should be as easy for your customers to withdraw consent as it was to give it in the first place',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
         links: [
-            { title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
-             href: 'https://www.gdprform.io'
+            {
+              title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
+              href: 'https://www.gdprform.io'
             },
-            {href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
               title: 'GDPR Article 7.3 – Conditions for consent'
             }
         ]
@@ -322,10 +342,11 @@ export const steps = [
       {
         id: 4,
         title: 'If you process children\'s personal data, verify their age and ask consent from their legal guardian',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'For children younger than 16, you need to make sure a legal guardian has given consent for data processing. If consent is given via your website, you should try to make sure approval was actually given by the legal guardian (and not by the child).',
         links: [
-            {href: "https://advisera.com/eugdpracademy/gdpr/conditions-applicable-to-childs-consent-in-relation-to-information-society-services/",
+            {
+              href: "https://advisera.com/eugdpracademy/gdpr/conditions-applicable-to-childs-consent-in-relation-to-information-society-services/",
               title: 'GDPR Article 8 – Conditions applicable to child’s consent in relation to information society services'
             }
         ]
@@ -333,7 +354,7 @@ export const steps = [
       {
         id: 5,
         title: 'When you update your privacy policy, you inform existing customers',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'for example, by emailing upcoming changes of your privacy policy. Your communication should explain in a simple way what has changed.',
         links: [
           {
@@ -346,15 +367,17 @@ export const steps = [
   },
   {
     id: 'follow-up',
-    title:'Follow-up',
-    items: [{
+    title: 'Acompanhamento',
+    items: [
+      {
         id: 1,
         title: 'You regularly review policies for changes, effectiveness, changes in handling of data and changes to the state of affairs of other countries your data flows to.',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'You should follow up on best practies and changes to the policies in your local environment. Sign up at the bottom of this page to receive major updates to this list.',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/data-protection-by-design-and-by-default/",
-           title: 'GDPR Article 25 – Data protection by design and by default'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/data-protection-by-design-and-by-default/",
+            title: 'GDPR Article 25 – Data protection by design and by default'
           },
           {
             href: "https://www.gdprtracker.io",
@@ -366,17 +389,20 @@ export const steps = [
   },
   {
     id: 'special-cases',
-    title:'Special cases',
-    items: [{
+    title: 'Casos especiais',
+    items: [
+      {
         id: 1,
         title: 'Your business understands when you must conduct a DPIA for high-risk processing of sensitive data.',
-        role: [ 'controller'],
+        role: ['controller'],
         description: 'This is only applies to businesses carrying out large-scale data processing, profiling and other activities with high risk to the rights and freedoms of people. A special assessment should be carried out in these cases.',
         links: [
-          {href: 'https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving/data-protection-impact-assessment-dpia',
+          {
+            href: 'https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving/data-protection-impact-assessment-dpia',
            title: 'DPIA according to the Dutch local authority (Dutch)'
           },
-          {href: "https://advisera.com/eugdpracademy/gdpr/data-protection-impact-assessment/",
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/data-protection-impact-assessment/",
            title: 'GDPR Article 35 – Data protection impact assessment'
           }
 
@@ -388,8 +414,9 @@ export const steps = [
         role: ['processor', 'controller'],
         description: 'You should also disclose these cross-border data flows in your privacy policy.',
         links: [
-          {href: "https://advisera.com/eugdpracademy/gdpr/transfers-on-the-basis-of-an-adequacy-decision/",
-           title: 'GDPR Article 45 – Transfers on the basis of an adequacy decision'
+          {
+            href: "https://advisera.com/eugdpracademy/gdpr/transfers-on-the-basis-of-an-adequacy-decision/",
+            title: 'GDPR Article 45 – Transfers on the basis of an adequacy decision'
           },
           {
             href: "https://www.gdprtracker.io",
@@ -402,6 +429,6 @@ export const steps = [
 ]
 
 export const roles = {
-  'controller': 'Data Controller',
-  'processor': 'Data Processor',
+  'controller': 'Controlador',
+  'processor': 'Processador',
 }
