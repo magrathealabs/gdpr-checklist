@@ -60,7 +60,7 @@ export const steps = [
         id: 1,
         title: 'Sua empresa elegeu um Data Protection Officer (DPO).',
         role: ['processor', 'controller'],
-        description: 'Um DPO é necessário apenas em três cenários: (1) o processamento é realizado por uma autoridade ou órgão público, exceto para os tribunais que atuam em sua capacidade judicial; (2) as atividades principais do negócio consistem em operações de processamento que, em virtude de sua natureza, escopo e/ou propósitos, requerem monitoramento regular e sistemático dos titulares de dados em larga escala; ou (3) as atividades principais do negócio consistem no processamento em larga escala de categorias especiais de dados (dados sensíveis) nos termos do artigo 9. o e dados pessoais relacionados a condenações ou ofensas criminais nos termos do artigo 10. Se um DPO for necessário, o DPO também deve ter conhecimento das diretrizes da LGPD, assim como conhecimento sobre os processos internos que envolvem informações pessoais.',
+        description: 'Um DPO é necessário apenas em três cenários: (1) o processamento é realizado por uma autoridade ou órgão público, exceto para os tribunais que atuam em sua capacidade judicial; (2) as atividades principais do negócio consistem em operações de processamento que, em virtude de sua natureza, escopo e/ou propósitos, requerem monitoramento regular e sistemático dos titulares de dados em larga escala; ou (3) as atividades principais do negócio consistem no processamento em larga escala de categorias especiais de dados (dados sensíveis) nos termos do artigo 9 e dados pessoais relacionados a condenações ou ofensas criminais nos termos do artigo 10. Se um DPO for necessário, o DPO também deve ter conhecimento das diretrizes da LGPD, assim como conhecimento sobre os processos internos que envolvem informações pessoais.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/designation-of-the-data-protection-officer/",
@@ -112,7 +112,7 @@ export const steps = [
         id: 5,
         title: 'Sua empresa têm uma lista de sub-processadores e sua política de privacidade menciona seu uso destes sub-processadores',
         role: ['processor'],
-        description: 'Você deve informar seus clientes sobre o uso de qualquer subprocessador. Eles devem consentir ao aceitar sua política de privacidade.',
+        description: 'Você deve informar seus clientes sobre o uso de qualquer sub-processador. Eles devem consentir ao aceitar sua política de privacidade.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/processor/",
@@ -139,7 +139,7 @@ export const steps = [
         id: 7,
         title: 'Você denuncia violações de dados envolvendo dados pessoais à autoridade local e às pessoas (titulares dos dados) envolvidas.',
         role: ['processor', 'controller'],
-        description: 'As violações de dados pessoais devem ser relatadas dentro de 72 horas à autoridade local. Você deve relatar quais dados foram perdidos, quais são as conseqüências e que contramedidas você tomou. A menos que os dados vazados tenham sido criptografados, você também deve denunciar a violação à pessoa (titular dos dados) cujos dados foram perdidos.',
+        description: 'As violações de dados pessoais devem ser relatadas dentro de 72 horas à autoridade local. Você deve relatar quais dados foram perdidos, quais são as consequências e que contramedidas você tomou. A menos que os dados vazados tenham sido criptografados, você também deve denunciar a violação à pessoa (titular dos dados) cujos dados foram perdidos.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/notification-of-a-personal-data-breach-to-the-supervisory-authority/",
@@ -154,7 +154,7 @@ export const steps = [
         id: 8,
         title: 'Existe um contrato com todos os processadores de dados com os quais você compartilha dados.',
         role: [ 'controller'],
-        description: 'O contrato deve conter instruções explícitas para o armazenamento ou processamento de dados pelo processador. O contrato deve definir o objeto e a duração do processamento, a natureza e a finalidade do processamento, o tipo de dados pessoais e categorias de titulares de dados e as obrigações e direitos do controlador. Por exemplo, isso pode incluir um contrato com seu provedor de hospedagem. Os mesmos requisitos de contrato se aplicam quando um processador contrata um subprocessador para ajudá-lo a realizar atividades de processamento em nome do controlador.',
+        description: 'O contrato deve conter instruções explícitas para o armazenamento ou processamento de dados pelo processador. O contrato deve definir o objeto e a duração do processamento, a natureza e a finalidade do processamento, o tipo de dados pessoais e categorias de titulares de dados e as obrigações e direitos do controlador. Por exemplo, isso pode incluir um contrato com seu provedor de hospedagem. Os mesmos requisitos de contrato se aplicam quando um processador contrata um sub-processador para ajudá-lo a realizar atividades de processamento em nome do controlador.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/processor/",
