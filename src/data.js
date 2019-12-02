@@ -183,9 +183,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'Seus clientes podem requisitar acesso aos seus dados pessoais de forma simples.',
+        title: 'Seus clientes podem solicitar acesso aos seus dados pessoais de forma simples.',
         role: ['processor', 'controller'],
-        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -201,7 +201,7 @@ export const steps = [
         id: 2,
         title: 'Seus clientes podem atualizar facilmente suas próprias informações pessoais para mantê-las precisas.',
         role: ['processor', 'controller'],
-        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -229,7 +229,7 @@ export const steps = [
         id: 4,
         title: 'Seus clientes podem facilmente solicitar a exclusão de seus dados pessoais.',
         role: ['processor', 'controller'],
-        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -245,7 +245,7 @@ export const steps = [
         id: 5,
         title: 'Seus clientes podem facilmente solicitar que você pare de processar os dados deles.',
         role: ['processor', 'controller'],
-        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -261,7 +261,7 @@ export const steps = [
         id: 6,
         title: 'Seus clientes podem facilmente solicitar que seus dados sejam entregues a eles mesmos ou a terceiros.',
         role: ['processor', 'controller'],
-        description: 'Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -277,7 +277,7 @@ export const steps = [
         id: 7,
         title: 'Seus clientes podem se opor facilmente à criação de perfil ou à tomada de decisão automatizada que poderia impactá-los.',
         role: ['controller'],
-        description: 'Isso somente é aplicável se a sua empresa traçar perfis ou qualquer outra tomada de decisão automatizada. Se você ainda não possui um processo definido para isso, criamos um formulário on-line fácil abaixo.',
+        description: 'Isso somente é aplicável se a sua empresa traçar perfis ou qualquer outra tomada de decisão automatizada. Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
