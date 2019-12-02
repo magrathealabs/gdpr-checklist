@@ -297,9 +297,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'Where processing is based on consent, such consent must be freely given, specific, informed, and revocable',
+        title: 'Quando o processamento é baseado no consentimento, esse consentimento deve ser dado de forma livre, específica, informada e revogável.',
         role: ['controller'],
-        description: 'If your website collects personal information in some way, you should have an easily visble link to your privacy policy and confirm that the user accepts your terms and conditions. Consent requires an affirmative action, so pre-ticked boxes are not permitted.',
+        description: 'Se o seu site coletar informações pessoais de alguma forma, você deverá ter um link facilmente visível para sua política de privacidade e confirmar que o usuário aceita seus termos e condições. O consentimento requer uma ação afirmativa, portanto, caixas pré-marcadas não são permitidas.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
@@ -309,9 +309,9 @@ export const steps = [
       },
       {
         id: 2,
-        title: 'Your privacy policy should be written in clear and understandable terms ',
+        title: 'Sua política de privacidade deve ser escrita em termos claros e compreensíveis.',
         role: ['controller'],
-        description: 'It should be written in clear and simple terms and not conceal it\'s intent in any way. Failing to do so could void the agreement entirely. When providing services to children, the privacy policy should be easy enough for them to understand.',
+        description: 'Ela deve ser escrita em termos claros e simples e não deve ocultar sua intenção de forma alguma. Não fazer isso pode anular completamente o contrato. Ao prestar serviços a crianças, a política de privacidade deve ser fácil o suficiente para que elas entendam.',
         links: [
           {
             title: "Watchdog service for terms of service: Terms of Service; Didn't Read",
@@ -325,9 +325,9 @@ export const steps = [
       },
       {
         id: 3,
-        title: 'It should be as easy for your customers to withdraw consent as it was to give it in the first place',
+        title: 'Deve ser tão fácil para seus clientes retirar o consentimento quanto dar em primeiro lugar.',
         role: ['controller'],
-        description: 'If you do not already have a process defined for this, we\'ve made an easy online form below.',
+        description: 'Se você ainda não possui um processo definido para isso, criamos um fácil formulário on-line abaixo.',
         links: [
             {
               title: "GDPR Form: Easy-to-configure web form to manage data requests from your customers & website visitors.",
@@ -341,9 +341,9 @@ export const steps = [
       },
       {
         id: 4,
-        title: 'If you process children\'s personal data, verify their age and ask consent from their legal guardian',
+        title: 'Se você processar os dados pessoais das crianças, verifique a idade delas e peça o consentimento do responsável legal.',
         role: ['controller'],
-        description: 'For children younger than 16, you need to make sure a legal guardian has given consent for data processing. If consent is given via your website, you should try to make sure approval was actually given by the legal guardian (and not by the child).',
+        description: 'Para crianças menores de 16 anos, é necessário garantir que um responsável legal tenha dado consentimento para o processamento de dados. Se o consentimento for dado através do seu site, você deve tentar garantir que a aprovação foi realmente dada pelo responsável legal (e não pela criança).',
         links: [
             {
               href: "https://advisera.com/eugdpracademy/gdpr/conditions-applicable-to-childs-consent-in-relation-to-information-society-services/",
@@ -353,9 +353,9 @@ export const steps = [
       },
       {
         id: 5,
-        title: 'When you update your privacy policy, you inform existing customers',
+        title: 'Ao atualizar sua política de privacidade, você informa os clientes existentes.',
         role: ['controller'],
-        description: 'for example, by emailing upcoming changes of your privacy policy. Your communication should explain in a simple way what has changed.',
+        description: 'Por exemplo, enviando por e-mail as alterações futuras da sua política de privacidade. Sua comunicação deve explicar de maneira simples o que mudou.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/conditions-for-consent/",
@@ -371,9 +371,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'You regularly review policies for changes, effectiveness, changes in handling of data and changes to the state of affairs of other countries your data flows to.',
+        title: 'Você analisa regularmente as políticas quanto a alterações, eficácia, alterações no manuseio de dados e alterações no estado de outros países para onde seus dados fluem.',
         role: ['controller'],
-        description: 'You should follow up on best practies and changes to the policies in your local environment. Sign up at the bottom of this page to receive major updates to this list.',
+        description: 'Você deve acompanhar as melhores práticas e alterações nas políticas em seu ambiente local.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/data-protection-by-design-and-by-default/",
@@ -393,9 +393,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'Your business understands when you must conduct a DPIA for high-risk processing of sensitive data.',
+        title: 'Sua empresa entende quando você deve realizar um DPIA para o processamento de alto risco de dados confidenciais.',
         role: ['controller'],
-        description: 'This is only applies to businesses carrying out large-scale data processing, profiling and other activities with high risk to the rights and freedoms of people. A special assessment should be carried out in these cases.',
+        description: 'Isso se aplica apenas a empresas que realizam processamento de dados em larga escala, criação de perfil e outras atividades com alto risco para os direitos e liberdades das pessoas. Uma avaliação especial deve ser realizada nesses casos.',
         links: [
           {
             href: 'https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving/data-protection-impact-assessment-dpia',
@@ -410,9 +410,9 @@ export const steps = [
       },
       {
         id: 2,
-        title: 'You should only transfer data outside of the EU to countries that offer an appropriate level of protection',
+        title: 'Você só deve transferir dados fora do Brasil para países que oferecem um nível de proteção adequado.',
         role: ['processor', 'controller'],
-        description: 'You should also disclose these cross-border data flows in your privacy policy.',
+        description: 'Você também deve divulgar esses fluxos de dados internacionais em sua política de privacidade.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/transfers-on-the-basis-of-an-adequacy-decision/",
