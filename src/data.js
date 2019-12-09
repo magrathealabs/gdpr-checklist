@@ -341,7 +341,7 @@ export const steps = [
       },
       {
         id: 4,
-        title: 'Se você processar os dados pessoais das crianças, verifique a idade delas e peça o consentimento do responsável legal.',
+        title: 'Se você processar os dados pessoais de crianças, verifique a idade delas e peça o consentimento do responsável legal.',
         role: ['controller'],
         description: 'Para crianças menores de 16 anos, é necessário garantir que um responsável legal tenha dado consentimento para o processamento de dados. Se o consentimento for dado através do seu site, você deve tentar garantir que a aprovação foi realmente dada pelo responsável legal (e não pela criança).',
         links: [
@@ -371,9 +371,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'Você analisa regularmente as políticas quanto a alterações, eficácia, alterações no manuseio de dados e alterações no estado de outros países para onde seus dados fluem.',
+        title: 'Você analisa regularmente as políticas quanto a alterações, eficácia, alterações no manuseio de dados e alterações nas políticas de outros países para onde seus dados fluem.',
         role: ['controller'],
-        description: 'Você deve acompanhar as melhores práticas e alterações nas políticas em seu ambiente local.',
+        description: 'Você deve seguir as melhores práticas e acompanhar alterações nas políticas em seu ambiente local.',
         links: [
           {
             href: "https://advisera.com/eugdpracademy/gdpr/data-protection-by-design-and-by-default/",

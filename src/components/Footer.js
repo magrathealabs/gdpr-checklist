@@ -31,19 +31,12 @@ const Maker = ({ name, img, bio, twitter, linkedin, producthunt }) => (
       <a href={linkedin} target='_blank'>
         <LinkedinIcon id='ph' color='#FFF' size={20} />
       </a>
-      <a href={producthunt} target='_blank'>
-        <ProductHuntIcon id='ph' color='#FFF' size={20} />
-      </a>
     </div>
   </div>
 )
 
 const Footer = props => (
   <footer id='footer'>
-    <p className='description' style={{ fontSize: '1em' }}>
-      <a href='https://www.iubenda.com/privacy-policy/52432713'>Privacy Policy</a> | <a href='https://gdpr-checklist.gdprform.io'>Exercise your rights</a>
-    </p>
-
     <div className='gradient'>
       <h5>Sobre LGPD Checklist</h5>
       <div className='subtitle'>LGPD Checklist foi feita por um time de Joinville, Santa Catarina, com propósito de facilitar a compreensão da LGPD.
@@ -62,6 +55,30 @@ const Footer = props => (
           ]}
           linkedin='https://www.linkedin.com/in/laurogripa'
           twitter='https://twitter.com/laurogripa'
+        />
+
+        <Maker
+          key='guilherme'
+          name='Guilherme Defreitas'
+          img={props.lauro}
+          bio={[
+            'Head de Ciência de Dados na ',
+            <a key='magrathealabs' href='https://www.magrathealabs.com' target='_blank'>Magrathea</a>,
+          ]}
+          linkedin='https://www.linkedin.com/in/guilhermedefreitas/'
+          twitter='https://twitter.com/guidef'
+        />
+
+        <Maker
+          key='plichoski'
+          name='Guilherme Plichoski'
+          img={props.lauro}
+          bio={[
+            'Engenheiro de Software na ',
+            <a key='magrathealabs' href='https://www.magrathealabs.com' target='_blank'>Magrathea</a>,
+          ]}
+          linkedin='https://www.linkedin.com/in/gplichoski'
+          twitter='https://twitter.com/gfplichoski'
         />
       </Makers>
     </div>
