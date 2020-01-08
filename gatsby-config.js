@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'The GDPR Checklist',
-    siteUrl: 'https://gdprchecklist.io'
+    siteUrl: 'https://lgpd-checklist.magrathealabs.com'
   },
   pathPrefix: "/lgpd-checklist",
   plugins: [
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://gdprchecklist.io',
-        sitemap: 'https://gdprchecklist.io/sitemap.xml',
+        host: 'https://lgpd-checklist.magrathealabs.com',
+        sitemap: 'https://lgpd-checklist.magrathealabs.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

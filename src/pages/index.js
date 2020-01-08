@@ -155,7 +155,7 @@ class IndexPage extends React.Component {
               <h2 className="description first">Entrar em conformidade com a LGPD não precisa ser complicado.
               Essa é uma checklist básica que você pode utilizar para aumentar sua conformidade com a lei.</h2>
 
-              <p className="small description">Se a sua organização está determinando o próposito de armazemaneto e processamento de informação pessoal, ela é considerada uma <b>controladora</b>. Se a sua organização armazena ou processa dados pessoais em nome de outra organização, ela é considerada uma <b>processadora</b>. É possível que sua organização tenha os dois papéis. Utilize o filtro abaixo para visualizar somente os itens relevantes a sua organização.</p>
+              <p className="small description">Se a sua organização está determinando o próposito de armazemaneto e processamento de informação pessoal, ela é considerada um <b>controlador</b>. Se a sua organização armazena ou processa dados pessoais em nome de outra organização, ela é considerada um <b>operador</b>. É possível que sua organização tenha os dois papéis. Utilize o filtro abaixo para visualizar somente os itens relevantes a sua organização.</p>
 
               <p className="small description">
               Essa lista está longe de ser um documento legal, ela é meramente uma tentativa de facilitar sua vida.
@@ -166,8 +166,8 @@ class IndexPage extends React.Component {
               <div className="filter-bar">
                 <h3>Selecione o papel da sua organização:</h3>
                 <ul className="selected-three">
-                  <li onClick={this.toggleController} className={this.state.controllerSelected ? 'controller' : ''}><h2>Controladora: Eu determino porque os dados são processados</h2></li>
-                  <li onClick={this.toggleProcessor} className={this.state.processorSelected ? 'processor' : ''}><h2>Processadora: Eu armazeno ou processo dados para terceiros</h2></li>
+                  <li onClick={this.toggleController} className={this.state.controllerSelected ? 'controller' : ''}><h2>Controlador: Eu determino porque os dados são processados</h2></li>
+                  <li onClick={this.toggleProcessor} className={this.state.processorSelected ? 'processor' : ''}><h2>Operador: Eu armazeno ou processo dados para terceiros</h2></li>
                 </ul>
               </div>
                 { steps.map( (function(s)
