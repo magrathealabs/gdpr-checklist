@@ -10,8 +10,8 @@ export const steps = [
         description: 'É uma lista com os tipos de dados armazenados (ex: Nome, CPF e endereço). Para cada tipo, uma origem deve ser documentada, assim como os terceiros com quem esses dados são compartilhados, seu propósito de armazenamento e a duração na qual a empresa irá mantê-los.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-38/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 38'
           }
         ]
@@ -23,8 +23,8 @@ export const steps = [
         description: 'Pode ser uma lista de bancos de dados (ex: PostgreSQL), mas também pode incluir arquivos físicos (papel).',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-38/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 38'
           }
         ]
@@ -36,8 +36,8 @@ export const steps = [
         description: 'Você deve incluir informações sobre todos os processos relacionados ao manuseio de informações pessoais. Este documento deve incluir (ou ter links para) os tipos de informações pessoais que a empresa mantém e onde elas são mantidas.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-38/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 38'
           }
         ]
@@ -67,8 +67,8 @@ export const steps = [
         description: 'Um DPO é necessário apenas em três cenários: (1) o processamento é realizado por uma autoridade ou órgão público, exceto para os tribunais que atuam em sua capacidade judicial; (2) as atividades principais do negócio consistem em operações de processamento que, em virtude de sua natureza, escopo e/ou propósitos, requerem monitoramento regular e sistemático dos titulares de dados em larga escala; ou (3) as atividades principais do negócio consistem no processamento em larga escala de categorias especiais de dados (dados sensíveis) nos termos do artigo 9 e dados pessoais relacionados a condenações ou ofensas criminais nos termos do artigo 10. Se um DPO for necessário, o DPO também deve ter conhecimento das diretrizes da LGPD, assim como conhecimento sobre os processos internos que envolvem informações pessoais.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-41/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 41'
           }
         ]
@@ -80,8 +80,8 @@ export const steps = [
         description: 'Certifique que as pessoas-chave e os tomadores de decisão têm conhecimento atualizado sobre a LGPD.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap7-art-50/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 50'
           }
         ]
@@ -97,8 +97,8 @@ export const steps = [
             title: 'SaaS CTO security checklist',
           },
           {
+            href: 'https://lgpd.magrathealabs.com/cap7-art-46/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 46'
           }
         ]
@@ -110,8 +110,8 @@ export const steps = [
         description: 'Muitas vulnerabilidades de segurança envolvem a cooperação inconsciente de uma pessoa com acesso a sistemas internos. Certifique que seus funcionários estão cientes desses riscos.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap7-art-50/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 50'
           }
         ]
@@ -123,8 +123,8 @@ export const steps = [
         description: 'Você deve informar seus clientes sobre o uso de qualquer sub-operador. Eles devem consentir ao aceitar sua política de privacidade.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-39/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 39'
           }
         ]
@@ -136,8 +136,8 @@ export const steps = [
         description: 'Se você tem uma empresa fora do Brasil e coleta dados sobre cidadãos brasileiros, deve designar um representante no país para sua empresa. Essa pessoa deve lidar com todos os problemas relacionados ao processamento. Em particular, uma autoridade local deve poder entrar em contato com essa pessoa.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap5-art-35/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 35'
           }
         ]
@@ -149,8 +149,8 @@ export const steps = [
         description: 'As violações de dados pessoais devem ser relatadas dentro de 72 horas à autoridade local. Você deve relatar quais dados foram perdidos, quais são as consequências e que contramedidas você tomou. A menos que os dados vazados tenham sido criptografados, você também deve denunciar a violação à pessoa (titular dos dados) cujos dados foram perdidos.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-41/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 41'
           }
         ]
@@ -372,8 +372,8 @@ export const steps = [
         description: 'Você deve seguir as melhores práticas e acompanhar alterações nas políticas em seu ambiente local.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap7-art-50/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 50'
           }
         ]
@@ -391,8 +391,8 @@ export const steps = [
         description: 'Isso se aplica apenas a empresas que realizam processamento de dados em larga escala, criação de perfil e outras atividades com alto risco para os direitos e liberdades das pessoas. Uma avaliação especial deve ser realizada nesses casos.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap6-art-38/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 38'
           }
         ]
@@ -404,8 +404,8 @@ export const steps = [
         description: 'Você também deve divulgar esses fluxos de dados internacionais em sua política de privacidade.',
         links: [
           {
+            href: 'https://lgpd.magrathealabs.com/cap5-art-33/'
             // TODO: aguardando atualização do site
-            href: 'https://lgpd.magrathealabs.com/cap1-art-1/'
             title: 'LGPD Artigo 33'
           }
         ]
