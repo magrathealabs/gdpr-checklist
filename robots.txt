@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gdprchecklist.io/sitemap.xml
-Host: https://gdprchecklist.io
+Sitemap: https://lgpd-checklist.magrathealabs.com/sitemap.xml
+Host: https://lgpd-checklist.magrathealabs.com

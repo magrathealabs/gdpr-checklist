@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/lgpd-checklist/app-f88c1df4c5b3a7a214b9.js","3f91adf0ad8ae5cdb538ff7f104f7408"],["/lgpd-checklist/commons-ed21e8c7568bd4ceb1a2.js","da65dcbfc979db2af90a6cb44f25055e"],["/lgpd-checklist/index.html","12bc3149b636e2f3b9aa8c327d9e9293"],["/lgpd-checklist/offline-plugin-app-shell-fallback/index.html","91d35525bf015f14b725a86292dad51d"]];
+var precacheConfig = [["/lgpd-checklist/app-f88c1df4c5b3a7a214b9.js","3f91adf0ad8ae5cdb538ff7f104f7408"],["/lgpd-checklist/commons-ed21e8c7568bd4ceb1a2.js","da65dcbfc979db2af90a6cb44f25055e"],["/lgpd-checklist/index.html","5f9eb0a38896ae76cbab73a225121282"],["/lgpd-checklist/offline-plugin-app-shell-fallback/index.html","8db944838858e2403c217d4dcdc7f1ba"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
