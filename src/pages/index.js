@@ -60,7 +60,7 @@ class Li extends React.Component {
           </div>
         </div>
         <div className='body' style={{ display: this.state.isExpanded ? 'block' : 'none' }} >
-          <p>{this.props.description}<br/><br/>Read more:</p>
+          <p>{this.props.description}<br/><br/>Saiba mais:</p>
           <ul>
             {this.props.links.map((l, index) => <li key={index}><a href={l.href} target="_blank">{l.title}</a></li>)}
           </ul>
