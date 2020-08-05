@@ -1,24 +1,20 @@
-<img src="https://github.com/GDPRTracker/GDPR-checklist/blob/master/src/images/github.png">
+## Como contribuir
 
-## How to add updates to the checklist
+- crie um fork desse repositório
+- edite o arquivo `src/data.js`
+- abra um pull request
 
-- fork this repository
-- edit the file src/data.js
-- create a pull request
+## Configuração
 
+- execute `npm install --global gatsby-cli`
+- execute `npm install` na pasta raiz do repositório
+- execute `gatsby develop`
+- visite `localhost:8000` no seu navegador
 
-## Quickstart
+## Hospedagem
 
-- run npm install --global gatsby-cli
-- run npm i in the root folder of this repository
-- run gatsby develop
-- visit localhost:8000 in your browser
+- mudanças são automaticamente submetidas para https://magrathealabs.io/lgpd-checklist
 
-## Deployment
+## Atribuição
 
-- changes will automatically be deployed to https://lgpd-checklist.github.io/
-
-## Attribution
-
-The project is inspired by [The SaaS CTO Security Checklist](https://cto-security-checklist.sqreen.io/)
-created by [Sqreen.io](https://www.sqreen.io/)
+Esse projeto é uma adaptação da [GDPR Checklist](https://gdprchecklist.io/)
