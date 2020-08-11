@@ -5,9 +5,9 @@ export const steps = [
     items: [
       {
         id: 1,
-        title: 'Sua empresa possui uma lista de todos os tipos de informações pessoal exigidas, a origem desses dados, com quem isso é compartilhado, o que é feito com isso e por quanto tempo é armazenado.',
+        title: 'Sua empresa possui um levantamento de todos os tipos de informações pessoal exigidas, a origem desses dados, com quem isso é compartilhado, o que é feito com isso e por quanto tempo é armazenado.',
         role: ['processor', 'controller'],
-        description: 'É uma lista com os tipos de dados armazenados (ex: Nome, CPF e endereço). Para cada tipo, uma origem deve ser documentada, assim como os terceiros com quem esses dados são compartilhados, seu propósito de armazenamento e a duração na qual a empresa irá mantê-los.',
+        description: 'É um registro com os tipos de dados armazenados (ex: Nome, CPF e endereço). Além disso, esse levantamento deve documentar, no mínimo, a origem dos dados, local de armazenamento, sua finalidade, eventuais compartilhamentos, duração do tratamento e a base legal.',
         links: [
           {
             href: 'https://lgpd.magrathealabs.com/cap6-art-38/'
