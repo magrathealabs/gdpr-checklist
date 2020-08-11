@@ -58,21 +58,6 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-
-          <script dangerouslySetInnerHTML={{
-            __html: `
-            var _iub = _iub || [];
-            _iub.csConfiguration = {
-              cookiePolicyId: 52432713,
-              siteId: 1031622,
-              lang: "en"
-            };
-            (function (w, d) {
-              var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/cookie_solution/stable/iubenda_cs.js"; tag.parentNode.insertBefore(s, tag); };
-              if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; }
-            })(window, document);
-            `}}
-          />
         </body>
       </html>
     )
