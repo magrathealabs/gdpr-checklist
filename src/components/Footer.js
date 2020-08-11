@@ -39,9 +39,7 @@ const Footer = props => (
   <footer id='footer'>
     <div className='gradient'>
       <h5>Sobre LGPD Checklist</h5>
-      <div className='subtitle'>LGPD Checklist foi feita por um time de Joinville, Santa Catarina, com propósito de facilitar a compreensão da LGPD.
-      Esse projeto é inspirado em <a href='https://cto-security-checklist.sqreen.io/'>The SaaS CTO Security Checklist</a> criado por <a href='https://www.sqreen.io'>Sqreen.io</a>.
-      Assim como uma adaptação e tradução da <a href='https://gdpr-checklist-checklist.io/'>The GDPR Checklist</a> criada por <a href='https://www.privacyradius.com'>Privacy Radius</a>
+      <div className='subtitle'>LGPD Checklist foi feita por um time de Joinville, Santa Catarina, com propósito de facilitar a compreensão da LGPD. Esse projeto é uma adaptação e tradução da <a href='https://gdpr-checklist-checklist.io/'>GDPR Checklist</a> criada por <a href='https://www.privacyradius.com'>Privacy Radius</a>
       </div>
 
       <Makers>
